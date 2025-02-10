@@ -1,0 +1,91 @@
+---
+services:
+  gradient-bot-1:
+    image: gradient-bot
+    container_name: gradient-bot-1
+    environment:
+      - APP_USER=${APP_USER}
+      - APP_PASS=${APP_PASS}
+      - PROXY=${PROXY1}
+      - DEBUG=${DEBUG}
+    restart: always
+
+  gradient-bot-2:
+    image: gradient-bot
+    container_name: gradient-bot-2
+    environment:
+      - APP_USER=${APP_USER}
+      - APP_PASS=${APP_PASS}
+      - PROXY=${PROXY2}
+      - DEBUG=${DEBUG}
+    restart: always
+
+  gradient-bot-3:
+    image: gradient-bot
+    container_name: gradient-bot-3
+    environment:
+      - APP_USER=${APP_USER}
+      - APP_PASS=${APP_PASS}
+      - PROXY=${PROXY3}
+      - DEBUG=${DEBUG}
+    restart: always
+
+  gradient-bot-4:
+    image: gradient-bot
+    container_name: gradient-bot-4
+    environment:
+      - APP_USER=${APP_USER}
+      - APP_PASS=${APP_PASS}
+      - PROXY=${PROXY4}
+      - DEBUG=${DEBUG}
+    restart: always
+
+  gradient-bot-5:
+    image: gradient-bot
+    container_name: gradient-bot-5
+    environment:
+      - APP_USER=${APP_USER}
+      - APP_PASS=${APP_PASS}
+      - PROXY=${PROXY5}
+      - DEBUG=${DEBUG}
+    restart: always
+
+  gradient-bot-6:
+    image: gradient-bot
+    container_name: gradient-bot-6
+    environment:
+      - APP_USER=${APP_USER}
+      - APP_PASS=${APP_PASS}
+      - PROXY=${PROXY6}
+      - DEBUG=${DEBUG}
+    restart: always
+
+  gradient-bot-7:
+    image: gradient-bot
+    container_name: gradient-bot-7
+    environment:
+      - APP_USER=${APP_USER}
+      - APP_PASS=${APP_PASS}
+      - PROXY=${PROXY7}
+      - DEBUG=${DEBUG}
+    restart: always
+
+  gradient-bot-8:
+    image: gradient-bot
+    container_name: gradient-bot-8
+    environment:
+      - APP_USER=${APP_USER}
+      - APP_PASS=${APP_PASS}
+      - PROXY=${PROXY8}
+      - DEBUG=${DEBUG}
+    restart: always
+
+  gradient-bot-9:
+    image: gradient-bot
+    container_name: gradient-bot-9
+    environment:
+      - APP_USER=${APP_USER}
+      - APP_PASS=${APP_PASS}
+      - PROXY=${PROXY9}
+      - DEBUG=${DEBUG}
+    restart: always
