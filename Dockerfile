@@ -1,4 +1,4 @@
-FROM node:18-slim
+FROM node:20-bullseye
 
 # 安装 Chrome 依赖
 RUN apt-get update && apt-get install -y \
